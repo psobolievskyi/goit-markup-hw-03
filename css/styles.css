@@ -1,0 +1,215 @@
+body {
+  /* Тепер (майже) всі елементи відображаються шрифтом без засічок */
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: white;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-weight: Bold;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  color: #2e2f42;
+}
+h2 {
+  font-weight: Bold;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.small {
+  font-weight: Regular;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 14px;
+  color: #2e2f42;
+}
+.medium {
+  font-weight: Medium;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  color: #2e2f42;
+}
+.link {
+  font-weight: Regular;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 16px;
+  color: #2e2f42;
+}
+/* Site header */
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+address ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-span {
+  color: #2e2f42;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+address {
+  font-style: normal;
+}
+address a {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+nav a:hover {
+  color: #404bbf;
+}
+nav a:focus {
+  color: #404bbf;
+}
+address a:focus {
+  color: #404bbf;
+}
+.address-link {
+  color: #434455;
+}
+.address-link:hover {
+  color: #404bbf;
+}
+/* Hero section */
+.hero-section {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: white;
+  text-align: center;
+}
+/* Button */
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: white;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:focus {
+  background-color: #404bbf;
+}
+/* Advantages section */
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Team section */
+
+.team {
+  background-color: #f4f4fd;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Portfolio section */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Footer */
+footer {
+  background-color: #2e2f42;
+}
+footer .logo-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
