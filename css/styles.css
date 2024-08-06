@@ -72,8 +72,8 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .main-menu {
   display: flex;
