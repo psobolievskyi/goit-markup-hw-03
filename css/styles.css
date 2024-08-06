@@ -180,7 +180,7 @@ address a:focus {
   padding: 120px 0;
 }
 .visually-hidden {
-  display: none;
+  visibility: hidden;
 }
 .advantages-title {
   font-weight: 500;
