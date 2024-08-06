@@ -211,8 +211,8 @@ address a:focus {
   flex-wrap: nowrap;
   gap: 24px;
 }
-.advanrage-item {
-  width: calc((100% - 48px) / 3);
+.advantage-item {
+  width: calc((100% - 72px) / 4);
 }
 /* Team section */
 
