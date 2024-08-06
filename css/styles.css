@@ -48,6 +48,9 @@ h3 {
   line-height: 24px;
   color: #2e2f42;
 }
+img {
+  display: block;
+}
 .link {
   font-weight: Regular;
   font-size: 12px;
@@ -56,13 +59,22 @@ h3 {
   color: #2e2f42;
 }
 /* Site header */
-header {
+.my-header {
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
 }
-nav {
+.header-row {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-menu {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -73,10 +85,14 @@ nav ul {
   flex-direction: row;
   flex-wrap: nowrap;
 }
-address ul {
+.my-menu {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  gap: 40px;
+}
+.my-logo {
+  margin-right: 76px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -96,6 +112,7 @@ address ul {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #2e2f42;
+  padding: 24px 0;
 }
 address {
   font-style: normal;
@@ -106,6 +123,12 @@ address a {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #2e2f42;
+}
+.contact-info-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
 }
 nav a:hover {
   color: #404bbf;
