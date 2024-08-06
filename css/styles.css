@@ -68,6 +68,8 @@ img {
 }
 .header-row {
   display: flex;
+}
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -89,9 +91,6 @@ nav ul {
   flex-wrap: nowrap;
   gap: 40px;
 }
-.my-logo {
-  margin-right: 76px;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -100,6 +99,7 @@ nav ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-span {
   color: #2e2f42;
